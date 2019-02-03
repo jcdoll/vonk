@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<title>Vonk Consulting</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('./images/littleThreeCreekLake.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Quote) */
+.bgimg-2 {
+  background-image: url("./images/threeSisters.jpg");
+  min-height: 300px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("./images/sparksLake.jpg");
+  min-height: 300px;
+}
+
+.shade {
+  width: 100%;
+  height: 100%;
+  background: rgba(0.7,0.7,0.7,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.w3-weight-300 {
+  font-weight:300;
+  text-transform:uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+.lineheight-1 {
+  line-height: 1.0;
+}
+
+.w3-text-gold {
+  color: #b9a864;
+}
+
+.w3-wide {letter-spacing: 8px; margin-left: 0px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (min-width: 1600px) {
+  .bgimg-1 {
+    background-attachment: scroll;
+  }
+  .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+<body>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min">
+  <div class="shade"></div>
+  <div class="w3-display-middle w3-center w3-padding-large w3-wide">
+    <span class="w3-jumbo w3-text-white w3-weight-300 lineheight-1">VONK</span>
+    <br>
+    <span class="w3-medium w3-text-gold w3-hide-small lineheight-1">CONSULTING LLC</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64 w3-medium">
+  <p>Vonk Consulting is a one-man hardware technology consulting firm that can help you to:
+  <ul>
+    <li>establish and validate predictive models
+    <li>generate a design that is robust across process tolerances
+    <li>create a new fabrication or assembly process
+    <li>fix a burning problem in your factory or fab
+    <li>develop custom software tools for your team's long-term efficiency
+  </ul>
+
+  <br>
+
+  <p>The skills that enable these outcomes include:
+    <ul>
+      <li>developing predictive models for new problems
+      <li>analytical and numerical design optimization
+      <li>Monte Carlo analysis based upon specification trees
+      <li>lumped parameter and FEA models
+      <li>analog circuit design for operation and DFT
+      <li>MEMS fabrication process development
+      <li>strong software development experience
+      <li>excellence in high pressure, tiger team environments
+    </ul>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="shade"></div>
+  <div class="w3-display-middle w3-center w3-padding-large w3-wide">
+    <span class="w3-xlarge w3-text-gold">CUSTOM SOLUTIONS FOR YOUR HARDEST PROBLEMS</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64 w3-medium">
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-64">
+      <img src="./images/portrait.jpg" class="w3-round w3-image" width="300">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h4>DR. JOSEPH C. DOLL</h4>
+      <p>I started Vonk Consulting in 2018, after leading hardware engineering teams at SiTime and Apple.
+      <p>At SiTime, I led the MEMS design team in developing quartz crystal alternatives. The custom simulation tools, circuits, and resonator designs that we developed contributed to industry-leading timing performance and a successful acquisition.
+      <p>At Apple, I managed the 3D Touch electrical engineering architecture team for the iPhone X, served as technical lead on several other projects, and consulted with teams throughout the company on assorted problems.
+      <p>I was educated at UC Berkeley and Stanford. At Stanford, I developed MEMS-based tools to study the sense of hearing at the molecular scale. My <a href="http://jcdoll.github.io/">publication record</a> includes 40+ journal and conference publications, 6+ patents, and one book.
+    </div>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="shade"></div>
+  <div class="w3-display-middle w3-center w3-padding-large w3-wide">
+     <span class="w3-xlarge w3-text-gold">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64 w3-medium">
+  <p>To get started, tell me a little bit about your project and how you’d like to move forward.
+  <br><br>
+  <i class="fa fa-map-marker fa-fw w3-hover-text-black"></i> Bend, OR<br>
+  <i class="fa fa-envelope fa-fw w3-hover-text-black"></i> <a href="mailto:info@vonkconsulting.com">info@vonkconsulting.com</a><br>
+  <i class="fa fa-phone fa-fw w3-hover-text-black"></i> (505) 501-8078
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-darkgray w3-padding-16">
+  <div class="w3-xlarge w3-section" style="white-space:nowrap;">
+    <a href="https://www.linkedin.com/in/jcdoll"><i class="fab fa-linkedin-in w3-hover-opacity w3-margin-8"></i></a>
+    <a href="http://jcdoll.github.io/"><i class="fas fa-book w3-hover-opacity w3-margin-8"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
+
+<!-- Based on: https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm -->
