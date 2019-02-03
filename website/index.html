@@ -16,7 +16,7 @@ body, html {
   line-height: 1.8;
 }
 
-/* Create a Parallax Effect */
+/* Parallax effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
@@ -24,19 +24,16 @@ body, html {
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('./images/littleThreeCreekLake.jpg');
   min-height: 100%;
 }
 
-/* Second image (Quote) */
 .bgimg-2 {
   background-image: url("./images/threeSisters.jpg");
   min-height: 300px;
 }
 
-/* Third image (Contact) */
 .bgimg-3 {
   background-image: url("./images/sparksLake.jpg");
   min-height: 300px;
@@ -80,7 +77,7 @@ body, html {
 </style>
 <body>
 
-<!-- First Parallax Image with Logo Text -->
+<!-- Parallax image (title) -->
 <div class="bgimg-1 w3-display-container w3-opacity-min">
   <div class="shade"></div>
   <div class="w3-display-middle w3-center w3-padding-large w3-wide">
@@ -90,7 +87,7 @@ body, html {
   </div>
 </div>
 
-<!-- Container (About Section) -->
+<!-- What I do -->
 <div class="w3-content w3-container w3-padding-64 w3-medium">
   <p>Vonk Consulting is a one-man hardware technology consulting firm that can help you to:
   <ul>
@@ -116,7 +113,7 @@ body, html {
     </ul>
 </div>
 
-<!-- Second Parallax Image with Portfolio Text -->
+<!-- Parallax image (Quote separator) -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="shade"></div>
   <div class="w3-display-middle w3-center w3-padding-large w3-wide">
@@ -124,13 +121,14 @@ body, html {
   </div>
 </div>
 
+<!-- Bio -->
 <div class="w3-content w3-container w3-padding-64 w3-medium">
   <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-64">
-      <img src="./images/portrait.jpg" class="w3-round w3-image" width="300">
+    <div class="w3-col m4 w3-center w3-padding-64">
+      <img src="./images/portrait.jpg" class="w3-round w3-image" width="250px">
     </div>
 
-    <div class="w3-col m6 w3-padding-large">
+    <div class="w3-col m8 w3-padding-large">
       <h4>DR. JOSEPH C. DOLL</h4>
       <p>I started Vonk Consulting in 2018, after leading hardware engineering teams at SiTime and Apple.
       <p>At SiTime, I led the MEMS design team in developing quartz crystal alternatives. The custom simulation tools, circuits, and resonator designs that we developed contributed to industry-leading timing performance and a successful acquisition.
@@ -140,7 +138,7 @@ body, html {
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
+<!-- Parallax image (Contact) -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="shade"></div>
   <div class="w3-display-middle w3-center w3-padding-large w3-wide">
@@ -148,7 +146,7 @@ body, html {
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
+<!-- Contact -->
 <div class="w3-content w3-container w3-padding-64 w3-medium">
   <p>To get started, tell me a little bit about your project and how you’d like to move forward.
   <br><br>
